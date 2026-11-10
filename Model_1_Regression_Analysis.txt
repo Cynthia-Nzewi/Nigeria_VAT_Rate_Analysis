@@ -1,0 +1,23 @@
+﻿Model 1: OLS, using observations 2015:1-2025:4 (T = 44)
+Dependent variable: l_real_vat
+HAC standard errors, bandwidth 2, Bartlett kernel
+
+                 coefficient   std. error   t-ratio    p-value 
+  -------------------------------------------------------------
+  const           5.90991      1.15526       5.116    9.25e-06  ***
+  vat_dummy       0.189323     0.0612846     3.089    0.0037    ***
+  covid_dummy    −0.0955080    0.0562389    −1.698    0.0976    *
+  taxpro_dummy    0.0825304    0.0627267     1.316    0.1962   
+  fx_dummy        0.440233     0.0533827     8.247    5.42e-010 ***
+  l_real_gdp      0.0779623    0.117882      0.6614   0.5124   
+
+Mean dependent var   6.907157   S.D. dependent var   0.298837
+Sum squared resid    0.277240   S.E. of regression   0.085415
+R-squared            0.927803   Adjusted R-squared   0.918303
+Log-likelihood       49.04206   Akaike criterion    −86.08413
+Schwarz criterion   −75.37899   Hannan-Quinn        −82.11414
+rho                  0.332558   Durbin-Watson        1.269011
+
+Log-likelihood for real_vat = −254.873
+
+Excluding the constant, p-value was highest for variable 10 (l_real_gdp)
