@@ -190,15 +190,9 @@ All data used in the project are publicly available. No client or confidential d
 
 #### **Preliminary Findings**
 
-
-
 ![Real VAT Revenue Trend](Images/Real_VAT_Chart.png)
 
-
-
 *Real VAT revenue per quarter, in constant 2024 prices. The vertical line marks the rate increase from 5% to 7.5% (February 2020)*
-
-
 
 A preliminary look at the data before any regression:
 
