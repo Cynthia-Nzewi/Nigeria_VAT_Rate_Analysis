@@ -1,0 +1,21 @@
+Augmented regression for Chow test
+OLS, using observations 2015:1-2023:2 (T = 34)
+Dependent variable: l_real_vat
+
+                  coefficient   std. error   t-ratio   p-value
+  ------------------------------------------------------------
+  const             8.56420      2.47360      3.462    0.0016  ***
+  l_real_gdp       −0.194040     0.253481    −0.7655   0.4500 
+  splitdum         −8.46499      3.53134     −2.397    0.0230  **
+  sd_l_real_gdp     0.887851     0.361141     2.458    0.0199  **
+
+Mean dependent var   6.763697   S.D. dependent var   0.138241
+Sum squared resid    0.166809   S.E. of regression   0.074567
+R-squared            0.735495   Adjusted R-squared   0.709045
+F(3, 30)             27.80648   P-value(F)           8.43e-09
+Log-likelihood       42.14966   Akaike criterion    −76.29931
+Schwarz criterion   −70.19387   Hannan-Quinn        −74.21718
+rho                  0.412581   Durbin-Watson        1.085435
+
+Chow test for structural break at observation 2020:1
+  F(2, 30) = 35.3522 with p-value 0.0000
