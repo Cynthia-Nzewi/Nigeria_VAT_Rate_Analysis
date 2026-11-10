@@ -192,7 +192,7 @@ All data used in the project are publicly available. No client or confidential d
 
 
 
-!\[Real VAT Revenue Trend](Images/Real\_VAT\_Chart.png)
+![Real VAT Revenue Trend](Images/Real_VAT_Chart.png)
 
 
 
